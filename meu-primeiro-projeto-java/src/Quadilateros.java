@@ -1,4 +1,5 @@
 public class Quadilateros {
+    //Sobrecargas de parãmetros
     public static void area(double lado) {
 
         System.out.println("Área do quadrado:" + lado * lado);
