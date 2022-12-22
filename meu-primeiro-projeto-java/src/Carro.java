@@ -38,5 +38,7 @@ class Carro {
         return capacidadeTanque;
     }
 
-    
+    double totalValorTanque(double valorCombustivel) {
+        return capacidadeTanque * valorCombustivel;
+    }
 }
